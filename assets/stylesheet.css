@@ -1,0 +1,45 @@
+:root {
+  --font: #f2f2f2;
+  --font2: #d9d9d9;
+  --font3: #0f1b27;
+  --font4: #bfafaf;
+  --font5: #0d0d0d;
+}
+
+body {
+  background-color: var(--font3);
+}
+
+header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 300%;
+  padding: 2%;
+  color: var(--font);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--font);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: var(--font3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: var(--font3);
+  color: var(--font2);
+}
