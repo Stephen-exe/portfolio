@@ -29,10 +29,40 @@ header {
   text-shadow: var(--font5);
 }
 
-
-
 p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--font2);
+}
+
+#footerlinks {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#footerlinks ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--font);
+}
+
+#footerlinks li {
+  float: left;
+  font-size: large;
+}
+
+#footerlinks li a {
+  display: block;
+  color: var(--font3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
+#footerlinks li a:hover {
+  background-color: var(--font3);
   color: var(--font2);
 }
 
@@ -63,3 +93,5 @@ li a:hover {
   background-color: var(--font3);
   color: var(--font2);
 }
+
+#github {}
