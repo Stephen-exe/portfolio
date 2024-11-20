@@ -17,6 +17,17 @@ header {
   color: var(--font);
 }
 
+.twitch:hover {
+  cursor: cell;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-width: 3%;
+  display: inline;
+  flex-direction: row;
+}
+
 .stephen {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 250%;
